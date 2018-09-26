@@ -69,16 +69,16 @@ footer .footer_copyright {
         CARROUSEL
 ======================*/
 
-.carrousel_wrapper {
+.carousel_wrapper {
   height: 700px;
   overflow: hidden;
 }
 
-.carrousel_image {
+.carousel_image {
   background-size: cover !important;
 }
 
-.artist_name {
+.product_name {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -89,7 +89,7 @@ footer .footer_copyright {
   border: 2px solid white;
 }
 
-.artist_name .wrapper {
+.product_name .wrapper {
   border: 2px solid white;
   height: 121px;
   margin: 6px;

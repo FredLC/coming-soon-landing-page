@@ -22,7 +22,7 @@ class Header extends Component {
       <div>
         <Headroom>
           <AppBar
-            position="relative"
+            position="fixed"
             style={{
               background: "#3d4c63",
               padding: "10px",
