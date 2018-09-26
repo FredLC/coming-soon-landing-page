@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import Header from "./components/header/Header";
 import Featured from "./components/featured/index";
 import "./resources/styles.css";
-import { Countdown } from "./components/featured/Countdown";
+import Countdown from "./components/featured/Countdown";
+import Info from "./components/info";
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
         <Header />
         <Featured />
         <Countdown />
+        <Info />
       </div>
     );
   }
