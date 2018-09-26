@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
+import MainButton from "../utils/MainButton";
 
 export class Discount extends Component {
   state = {
@@ -40,6 +41,12 @@ export class Discount extends Component {
                 Get 40% off if you pre-order. Offer valid until November 11th at
                 midnight ET.
               </p>
+              <MainButton
+                text="Buy Now"
+                background="#DE434D"
+                color="white"
+                link="https://www.amazon.ca/"
+              />
             </div>
           </Slide>
         </div>
